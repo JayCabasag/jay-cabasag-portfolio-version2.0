@@ -1,0 +1,137 @@
+.navbar-container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    color: #fff;
+    background-color: #68A8A8;
+}
+
+.logo-container {
+    flex: 1;
+}
+.navbar-text {
+    font-family: "Poppins Bold";
+}
+
+.navbar-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-container ul li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100px;
+    
+}
+.navbar-container ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar-container ul li a{
+    font-family: "Poppins Regular";
+    text-decoration: none;
+    color: white;
+    justify-self: center;
+    font-size: 18px;
+}
+
+.main-container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+}
+
+.main-img {
+    width: 500px;
+    height: auto;
+}
+
+.left-info {
+    width: 500px;
+}
+
+.author-name-text {
+    color: #fff;
+    font-family: "Poppins Semi Bold";
+    font-size: 58px;
+    position: relative;
+    width: max-content;
+    margin-left: -220px;
+}
+
+.author-intro-container {
+    width: 380px;
+}
+
+.author-intro-text {
+    color: #fff;
+    font-family: "Poppins Regular";
+    font-size: 20px;
+    padding: 35px;
+}
+
+.download-cv-btn {
+    margin-left: 35px;
+    width: 300px;
+    padding: 12px;
+    font-size: 20px;
+    font-family: "Poppins Light";
+    outline: none;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.author-roadmap-container {
+    width: 380px;
+}
+
+.author-roadmap-text {
+    color: #fff;
+    font-family: "Poppins Regular";
+    font-size: 15px;
+    padding: 35px;
+    cursor: pointer;
+}
+
+.social-media-container {
+    width: max-content;
+    color: #fff;
+    font-family: "Poppins Regular";
+    position: absolute;
+    bottom: 40px;
+    width: 500px;
+    padding-left: 35px;
+}
+
+.social-media-container ul {
+    display: flex;
+    gap: 35px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.social-media-container ul li{
+    list-style: none;
+    display: flex;
+}
+
+.social-media-container ul li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
